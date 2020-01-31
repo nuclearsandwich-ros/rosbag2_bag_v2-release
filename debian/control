@@ -1,0 +1,12 @@
+Source: ros-turbulent-ros1-rosbag-storage-vendor
+Section: misc
+Priority: extra
+Maintainer: Karsten Knese <karsten@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), git, libboost-all-dev, libbz2-dev, libconsole-bridge-dev, libgpgme-dev, libssl-dev, pkg-config, ros-turbulent-ament-cmake, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-pluginlib, ros-turbulent-ros1-bridge, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ros1-rosbag-storage-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ros-workspace
+Description: Vendor package for rosbag_storage of ROS1
